@@ -1,0 +1,60 @@
+@import "../../themes/colors/colors.scss";
+@import "../../themes/mixins/mixins.scss";
+
+.privacy_policy_content {
+  margin: 6rem 1.5rem 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+
+  @include md {
+    width: 60%;
+    padding: 7rem 0rem 5rem;
+    margin: auto;
+  }
+
+  @include lg {
+    padding: 10rem 0rem 5rem;
+  }
+}
+
+.privacy_policy_heading {
+  margin: auto;
+
+  h1 {
+    color: $gray-900;
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 115%; /* 82.8px */
+    letter-spacing: -2.88px;
+  }
+}
+
+.privacy_policy_body {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+
+  @include md {
+    gap: 3rem;
+  }
+
+  @include lg {
+    gap: 3rem;
+  }
+}
+
+.privacy_policy_body_section {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+
+  h5 {
+    color: $gray-900;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.9px;
+  }
+}

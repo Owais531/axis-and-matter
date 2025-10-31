@@ -1,0 +1,50 @@
+@import "../../../themes/colors/colors.scss";
+@import "../../../themes/mixins/mixins.scss";
+
+.home_partners_container {
+  padding: 0;
+
+  @include lg {
+    padding: 0;
+  }
+
+  @include xxl {
+    width: 100%;
+    padding: 0rem auto;
+  }
+}
+
+.content_wrapper {
+  margin: 0rem auto;
+}
+
+.logos_wrapper {
+  background: $white;
+  padding: 1rem 0;
+
+  img {
+    margin-left: 1.875rem;
+
+    @include md {
+      margin-left: 2.25rem;
+    }
+
+    @include lg {
+      margin-left: 3rem;
+    }
+  }
+}
+
+.marquee_container {
+  overflow: hidden;
+  white-space: nowrap;
+  padding: 2rem 0;
+}
+
+.marquee {
+  display: inline-block;
+
+  img {
+    display: inline-block;
+  }
+}

@@ -1,0 +1,65 @@
+@import "../../../themes/colors/colors.scss";
+@import "../../../themes/mixins/mixins.scss";
+
+.header_container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: white;
+  transition: transform 0.3s ease;
+  z-index: 1000;
+
+  &.visible {
+    transform: translateY(0);
+  }
+
+  &.hidden {
+    transform: translateY(-100%);
+  }
+
+  @include lg {
+    top: 1rem;
+    left: 50%;
+    width: 70%;
+    transform: translateX(-50%);
+    border-radius: 0.75rem;
+
+    &.visible {
+      transform: translate(-50%, 0);
+    }
+
+    &.hidden {
+      transform: translate(-50%, calc(-100% - 1rem));
+    }
+  }
+}
+
+.header_logo {
+  width: 6.5rem;
+  height: auto;
+
+  @include md {
+    width: 6rem;
+  }
+
+  @include lg {
+    width: 12.3rem;
+  }
+}
+
+.header_inner_div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.75rem 1.25rem;
+
+  @include md {
+    padding: 0rem 1.25rem;
+  }
+
+  @include lg {
+    padding: 0rem 2.5rem;
+  }
+}

@@ -1,0 +1,20 @@
+@import "../../../../../themes/colors/colors.scss";
+@import "../../../../../themes/mixins/mixins.scss";
+
+.popup {
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: $white;
+  color: $gray-600;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.visible {
+  opacity: 1;
+}
