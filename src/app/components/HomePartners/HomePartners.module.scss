@@ -20,17 +20,17 @@
 
 .logos_wrapper {
   background: $white;
-  padding: 1rem 0;
+  padding: 0;
 
   img {
-    margin-left: 1.875rem;
+    margin-left: 2.5rem;
 
     @include md {
       margin-left: 2.25rem;
     }
 
     @include lg {
-      margin-left: 3rem;
+      margin-left: 5rem;
     }
   }
 }
@@ -38,7 +38,11 @@
 .marquee_container {
   overflow: hidden;
   white-space: nowrap;
-  padding: 2rem 0;
+  padding: 1rem 0;
+
+  @include md {
+    padding: 2rem 0;
+  }
 }
 
 .marquee {

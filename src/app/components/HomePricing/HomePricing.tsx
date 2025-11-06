@@ -61,7 +61,7 @@ const HomePricing = () => {
                 </div>
                 <div className="mx-auto">
                   <Link href="#contact-us-form">
-                    <Button btnClass="filledBtn" label="Get Started" />
+                    <Button btnClass="filledBtn" label="Get started" />
                   </Link>
                 </div>
               </div>

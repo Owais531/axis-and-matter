@@ -133,8 +133,7 @@ const ContactUsForm = () => {
             <h3>Let’s Build with Purpose</h3>
             <small>
               Great work begins with a candid assessment. Describe the primary
-              challenge impeding your growth, and let’s begin a strategic
-              dialogue.
+              challenge impeding your growth, and let’s chat.
             </small>
           </div>
         </div>
@@ -197,7 +196,7 @@ const ContactUsForm = () => {
           <div>
             <Button
               // disabled={isFormInValid()}
-              label="Spark the Strategy Session"
+              label="Spark the strategy session"
               btnClass="whiteBtn"
               onClick={onSubmit}
             />

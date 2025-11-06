@@ -10,22 +10,24 @@ import EMA from "../../public/assets/images/ema-am.png";
 import Graphiant from "../../public/assets/images/graphiant-am.png";
 import Intervision from "../../public/assets/images/intervision-am.png";
 import NRTC from "../../public/assets/images/nrtc-am.png";
+import PathApp from "../../public/assets/images/path-app-am.png";
 import Spectredge from "../../public/assets/images/spectredge-am.png";
 import Tamba from "../../public/assets/images/tamba-am.png";
 import Textify from "../../public/assets/images/textify-am.png";
 import styles from "./HomePartners.module.scss";
 
 const logos = [
-  { src: EMA, alt: "ema" },
-  { src: Caretecher, alt: "caretecher" },
-  { src: Textify, alt: "textify" },
-  { src: NRTC, alt: "nrtc" },
-  { src: CBT, alt: "cbt" },
-  { src: Spectredge, alt: "spectredge" },
-  { src: Intervision, alt: "intervision" },
-  { src: Graphiant, alt: "graphiant" },
-  { src: Dataendure, alt: "dataendure" },
-  { src: Tamba, alt: "tamba" },
+  { src: EMA, alt: "ema", height: 25 },
+  { src: Caretecher, alt: "caretecher", height: 50 },
+  { src: Textify, alt: "textify", height: 32 },
+  { src: NRTC, alt: "nrtc", height: 25 },
+  { src: CBT, alt: "cbt", height: 32 },
+  { src: Spectredge, alt: "spectredge", height: 25 },
+  { src: Intervision, alt: "intervision", height: 32 },
+  { src: Graphiant, alt: "graphiant", height: 25 },
+  { src: Dataendure, alt: "dataendure", height: 20 },
+  { src: Tamba, alt: "tamba", height: 25 },
+  { src: PathApp, alt: "path-app", height: 40 },
 ];
 
 const HomePartners = () => {
@@ -50,7 +52,7 @@ const HomePartners = () => {
 
   return (
     <>
-      <div className={`${styles.home_partners_container}`}>
+      <div className={`${styles.home_partners_container} border-t border-b border-gray-200 md:border-0`}>
         <div className={`${styles.content_wrapper}`}>
           <div className={`${styles.logos_wrapper}`}>
             <div className={`${styles.marquee_container}`}>
@@ -60,7 +62,7 @@ const HomePartners = () => {
                     key={index}
                     src={logo.src}
                     alt={logo.alt}
-                    className="max-h-12 object-contain"
+                    height={logo.height}
                   />
                 ))}
               </div>

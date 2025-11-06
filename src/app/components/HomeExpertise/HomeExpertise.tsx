@@ -78,8 +78,8 @@ const HomeExpertise = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 max-w-5xl mx-auto">
           {/* Left */}
           <div className={`${styles.card} ${styles.lightCard}`}>
-            <h3 className="font-semibold mb-4">{active.title}</h3>
-            <p>{active.capabilities}</p>
+            <h3 className="font-semibold mb-4 text-black">{active.title}</h3>
+            <p className="text-gray-600">{active.capabilities}</p>
           </div>
 
           {/* Right */}

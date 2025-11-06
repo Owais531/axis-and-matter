@@ -6,21 +6,21 @@ import styles from "./HomeCaseStudy.module.scss";
 const HomeCaseStudy = () => {
   return (
     <>
-      <div id='case-studies' className={`${styles.case_study_conatiner}`}>
+      <div id="case-studies" className={`${styles.case_study_conatiner}`}>
         <div
           className={`grid grid-cols-2 gap-8 md:gap-24 ${styles.content_wrapper}`}
         >
           <div className="flex flex-col col-span-2 md:col-span-1 gap-2 md:gap-8">
-            <div className="flex flex-col gap-24">
+            <div className="flex flex-col gap-4 md:gap-24">
               <h2>Case Study:</h2>
               <h3 className={`${styles.description_para}`}>
-                The Architecture of a Digital Identity
+                Building a Strong Digital Identity
               </h3>
             </div>
-            <h5>
-              We transformed disjointed digital presence by doing a
-              comprehensive visual reconstruct.{" "}
-            </h5>
+            <p className="text-gray-600">
+              We transformed disparate digital presence by doing a comprehensive
+              visual reconstruct.{" "}
+            </p>
           </div>
           <div className="relative col-span-2 md:col-span-1">
             <Image

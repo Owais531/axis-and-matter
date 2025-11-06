@@ -8,8 +8,8 @@ const HomeAbout = () => {
           <h2>About Our Agency</h2>
           <p className={`${styles.description_para}`}>
             Axis & Matter is predicated on a core conviction: the most resonant
-            ideas are born at the convergence of intellectual rigor and creative
-            verve. We operate as an impetus for visionary brands, transforming
+            ideas are born at the epicenter of due diligence and unique angles.
+            We operate as an impetus for visionary brands, transforming
             ambitious goals into market-defining realities.
           </p>
         </div>

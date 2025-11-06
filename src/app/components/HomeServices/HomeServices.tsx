@@ -11,32 +11,32 @@ const services = [
   {
     title: "Market Positioning & Architecture",
     description:
-      "Define your ideal customer profile and architect an undeniable market position. The deliverable is a comprehensive playbook engineered to double qualified traffic within a single quarter.",
-    cta_text: "Sharpen Your Position",
+      "Define your ideal customer profile and architect a strong market position. The deliverable is a comprehensive playbook to double qualified traffic within a single quarter.",
+    cta_text: "Sharpen your position",
   },
   {
     title: "Integrated Growth Campaigns",
     description:
       "Paid media that performs, content that compounds, and social media that resonates. We manage the entire growth engine, from asset creation to campaign execution, to deliver sustained engagement and measurable pipeline.",
-    cta_text: "Fuel Your Pipeline",
+    cta_text: "Fuel your pipeline",
   },
   {
     title: "Digital Ecosystems",
     description:
-      "Transform your website from a digital brochure into your most effective sales asset. Through meticulous UX/UI and conversion design, we build sites engineered to perform at an elite level (20%+ conversion).",
-    cta_text: "Upgrade Your Presence",
+      "Transform your website from a digital brochure into your most effective sales asset. Through meticulous UX/UI and conversion design, we build sites to perform at an elite level (20%+ conversion).",
+    cta_text: "Upgrade your presence",
   },
   {
-    title: "Revenue Operations Integration",
+    title: "Marketing Automation",
     description:
-      "Mastery of Salesforce, HubSpot, and Marketo to build systems that nurture. We design intelligent automations that eliminate funnel leakage and capture latent revenue.",
-    cta_text: "Lock In Efficiency",
+      "Build systems that nurture with Salesforce, HubSpot, and Marketo. We design intelligent automations that eliminate funnel leakage and capture latent revenue.",
+    cta_text: "Lock in efficiency",
   },
   {
     title: "Narrative & Conversion Copy",
     description:
       "Develop a definitive voice for your brand. From websites to advertisements and email sequences, we craft copy that cuts through the noise and translates your narrative directly into revenue.",
-    cta_text: "Amplify Your Message",
+    cta_text: "Amplify your message",
   },
 ];
 

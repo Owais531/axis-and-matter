@@ -23,7 +23,11 @@
   align-items: center;
   justify-content: center;
   min-height: 18.75rem;
-  margin-top: 4rem;
+  margin-top: 2rem;
+
+  @include lg {
+    margin-top: 4rem;
+  }
 }
 
 .arrow_btn {

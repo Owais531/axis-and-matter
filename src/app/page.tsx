@@ -15,13 +15,13 @@ import HomeTestimonials from "./components/HomeTestimonial/HomeTestimonial";
 import OGHome from "./public/assets/images/axis-matter-hero-bg.png";
 
 export const metadata: Metadata = {
-  title: "Axis & Matter | Strategic Marketing for Growth-Driven Brands",
+  title: "Axis & Matter | Marketing for Brands That Make a Difference",
   description:
-    "Cut through marketing chaos with Axis & Matter. We deliver clear positioning, high-impact campaigns, and RevOps that drive real results for ambitious brands. Ready to elevate your strategy? Let's connect.",
+    "Cut through market noise with Axis & Matter. We deliver clear positioning, high-impact campaigns, and marketing automation that drive real results for ambitious brands.",
   openGraph: {
-    title: "Clarity in the Chaos: Axis & Matter Marketing Agency Mirrors homepage headline for consistency in shares.",
+    title: "Stand out in a saturated market | Axis & Matter",
     description:
-      "In a noisy world, we build brands that matter. From ICP strategy to automated growth, discover how our expertise in Salesforce, HubSpot, and more can transform your business. Tailored for social previews; emphasizes unique value props like tools/partners.",
+      "We build brands that matter. From ICP strategy to automated growth, discover how our expertise in Salesforce, HubSpot, and more can transform your business.",
     images: [
       {
         url: `${BASE_URL}${OGHome.src}`,

@@ -45,7 +45,7 @@ const Header = () => {
     <header
       className={`${styles.header_container} ${
         visible ? styles.visible : styles.hidden
-      }`}
+      } md:opacity-90`}
     >
       <div className={`${styles.header_inner_div}`}>
         <div className="flex flex-row items-center">
@@ -64,7 +64,7 @@ const Header = () => {
         </div>
         <div className="hidden md:flex">
           <Link href="#contact-us-form">
-            <Button btnClass="filledBtn" label="Get in Touch" />
+            <Button btnClass="filledBtn" label="Get in touch" />
           </Link>
         </div>
         <div className={`${styles.mobile_nav} flex md:hidden`}>
