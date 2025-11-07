@@ -3,7 +3,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useState } from "react";
-import Logo from "../../public/assets/images/axis-and-matter-logo.svg";
+import Logo from "../../public/assets/images/axis-and-matter-logo.png";
 import Button from "../Button/Button";
 import NavMenu from "./components/NavMenu/NavMenu";
 import styles from "./Header.module.scss";
@@ -45,7 +45,7 @@ const Header = () => {
     <header
       className={`${styles.header_container} ${
         visible ? styles.visible : styles.hidden
-      } md:opacity-90`}
+      } md:opacity-90 border-b border-gray-200 lg:border-0`}
     >
       <div className={`${styles.header_inner_div}`}>
         <div className="flex flex-row items-center">

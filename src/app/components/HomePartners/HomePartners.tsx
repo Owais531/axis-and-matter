@@ -13,13 +13,14 @@ import NRTC from "../../public/assets/images/nrtc-am.png";
 import PathApp from "../../public/assets/images/path-app-am.png";
 import Spectredge from "../../public/assets/images/spectredge-am.png";
 import Tamba from "../../public/assets/images/tamba-am.png";
+import TF from "../../public/assets/images/tech-factory-am.png";
 import Textify from "../../public/assets/images/textify-am.png";
 import styles from "./HomePartners.module.scss";
 
 const logos = [
   { src: EMA, alt: "ema", height: 25 },
-  { src: Caretecher, alt: "caretecher", height: 50 },
-  { src: Textify, alt: "textify", height: 32 },
+  { src: Caretecher, alt: "caretecher", height: 44 },
+  { src: Textify, alt: "textify", height: 40 },
   { src: NRTC, alt: "nrtc", height: 25 },
   { src: CBT, alt: "cbt", height: 32 },
   { src: Spectredge, alt: "spectredge", height: 25 },
@@ -28,6 +29,7 @@ const logos = [
   { src: Dataendure, alt: "dataendure", height: 20 },
   { src: Tamba, alt: "tamba", height: 25 },
   { src: PathApp, alt: "path-app", height: 40 },
+  { src: TF, alt: "tech-factory", height: 32 },
 ];
 
 const HomePartners = () => {
@@ -52,7 +54,9 @@ const HomePartners = () => {
 
   return (
     <>
-      <div className={`${styles.home_partners_container} border-t border-b border-gray-200 md:border-0`}>
+      <div
+        className={`${styles.home_partners_container} border-t border-b border-gray-200 md:border-0`}
+      >
         <div className={`${styles.content_wrapper}`}>
           <div className={`${styles.logos_wrapper}`}>
             <div className={`${styles.marquee_container}`}>

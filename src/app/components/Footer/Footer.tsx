@@ -1,10 +1,10 @@
 import Image from "next/image";
 // import SocialFacebook from "../../public/assets/images/social-icon-facebook.svg";
 import Link from "next/link";
-import SocialInsta from "../../public/assets/images/insta-am.svg";
-import SocialLinkedin from "../../public/assets/images/linkedin-am.svg";
+import SocialInsta from "../../public/assets/images/insta-am.png";
+import SocialLinkedin from "../../public/assets/images/linkedin-am.png";
 import styles from "./Footer.module.scss";
-import Logo from "../../public/assets/images/axis-and-matter-logo.svg";
+import Logo from "../../public/assets/images/axis-and-matter-logo.png";
 
 const Footer = () => {
   return (
@@ -14,7 +14,7 @@ const Footer = () => {
           className={`${styles.footer_container} grid grid-cols-4 items-center`}
         >
           <div className="flex justify-center md:justify-start col-span-4 md:col-span-1">
-            <Image src={Logo} alt="axis-matter-logo" />
+            <Image src={Logo} alt="axis-matter-logo" className="w-52" />
           </div>
           <div className="flex justify-center col-span-4 md:col-span-1 mt-8 md:mt-0">
             <div className="grid grid-cols-2">
