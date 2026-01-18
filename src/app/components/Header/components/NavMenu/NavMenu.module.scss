@@ -1,0 +1,28 @@
+@import "../../../../../themes/colors/colors.scss";
+@import "../../../../../themes/mixins/mixins.scss";
+
+.mobile_nav {
+  position: absolute;
+  background: white;
+  width: 100%;
+  margin-top: 3rem;
+  padding: 1rem 0;
+  box-shadow: 0 4px 6px 1px rgba(0, 0, 0, 0.1);
+  left: 0;
+}
+
+.menu_item_mob {
+  padding: 1.25rem 1.25rem;
+}
+
+.subMenu_item_mob {
+  padding: 1rem 1.25rem;
+
+  h4 {
+    margin-left: 1.25rem;
+  }
+
+  &:hover {
+    background-color: $gray-200;
+  }
+}

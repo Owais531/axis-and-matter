@@ -1,0 +1,33 @@
+@import "../../../themes/colors/colors.scss";
+@import "../../../themes/mixins/mixins.scss";
+
+.home_cta_conatiner {
+  background-color: $primary;
+  padding: 2.5rem 1.25rem;
+
+  @include lg {
+    background-image: url("../../public/assets/images/opacity-circles-am.png");
+    background-size: contain;
+    background-position: center right;
+    background-repeat: no-repeat;
+    padding: 4rem 2.5rem;
+  }
+
+  @include xxl {
+    width: 100%;
+    padding: 4rem auto;
+  }
+}
+
+.content_wrapper {
+  margin: 0rem auto;
+
+  @include lg {
+    width: 58%;
+  }
+
+  p {
+    color: white;
+    width: 70%;
+  }
+}

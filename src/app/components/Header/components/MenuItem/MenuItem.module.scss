@@ -1,0 +1,70 @@
+@import "../../../../../themes/colors/colors.scss";
+@import "../../../../../themes/mixins/mixins.scss";
+
+.header_menu_item {
+  color: $black;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: inline-flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 2rem 1rem;
+  align-items: center;
+
+
+
+  @include md {
+    font-size: 0.8rem;
+  }
+
+  @include lg {
+    font-size: 1.25rem;
+    padding: 2rem 1.25rem;
+  }
+}
+
+.desktop_menu {
+  position: absolute;
+  padding: 1rem;
+  border-radius: 1.5rem;
+  background-color: $white;
+  width: max-content;
+  top: 6rem;
+  left: -3rem;
+  box-shadow: 0px 20px 24px -4px rgba(16, 24, 40, 0.08),
+    0px 8px 8px -4px rgba(16, 24, 40, 0.03);
+
+  @include lg {
+    padding: 1.5rem;
+    top: 7rem;
+    left: -4rem;
+  }
+}
+
+.desktop_menu_item {
+  border-radius: 0.5rem;
+
+  &:hover {
+    background-color: $gray-200;
+  }
+
+  p {
+    width: 10rem;
+
+    @include lg {
+      width: 13.5rem;
+    }
+  }
+}
+
+.menu_item_down_arrow {
+  margin-left: 0.5rem;
+  width: 0.63rem;
+
+  @include lg {
+    width: 0.8rem;
+    margin-top: 0.2rem;
+  }
+}

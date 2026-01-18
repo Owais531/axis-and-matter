@@ -1,0 +1,29 @@
+@import "../../../themes/colors/colors.scss";
+@import "../../../themes/mixins/mixins.scss";
+
+.about_conatiner {
+  margin: 2.5rem 1.25rem;
+
+  @include lg {
+    margin: 8rem 2.5rem;
+  }
+
+  @include xxl {
+    width: 100%;
+    margin: 4rem auto;
+  }
+}
+
+.content_wrapper {
+  margin: 0rem auto;
+  
+  @include lg {
+    width: 58%;
+  }
+
+  p {
+    color: #595959;
+  }
+}
+
+

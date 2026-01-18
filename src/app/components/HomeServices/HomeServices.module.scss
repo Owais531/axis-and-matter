@@ -1,0 +1,23 @@
+@import "../../../themes/colors/colors.scss";
+@import "../../../themes/mixins/mixins.scss";
+
+.home_services_conatiner {
+  padding: 2.5rem 1.25rem;
+
+  @include lg {
+    padding: 8rem 2.5rem 4rem;
+  }
+
+  @include xxl {
+    width: 100%;
+    padding: 4rem auto;
+  }
+}
+
+.content_wrapper {
+  margin: 0rem auto;
+
+  @include lg {
+    width: 58%;
+  }
+}

@@ -1,0 +1,73 @@
+@import "../../themes/colors/colors.scss";
+@import "../../themes/mixins/mixins.scss";
+
+.information_security_content {
+  margin: 6rem 1.5rem 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+
+  @include md {
+    width: 60%;
+    padding: 7rem 0rem 5rem;
+    margin: auto;
+  }
+
+  @include lg {
+    padding: 10rem 0rem 5rem;
+  }
+}
+
+.information_security_heading {
+  margin: auto;
+
+  h1 {
+    color: $gray-900;
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 115%; /* 82.8px */
+    letter-spacing: -2.88px;
+  }
+}
+
+.information_security_body {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+
+  @include md {
+    gap: 3rem;
+  }
+
+  @include lg {
+    gap: 5rem;
+  }
+}
+
+.information_security_body_section {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+
+  ul {
+    list-style-type: disc;
+    font-size: 1rem;
+  }
+
+  li {
+    margin-left: 1.25rem;
+
+    @include lg {
+      margin-left: 2rem;
+    }
+  }
+
+  @include md {
+    gap: 3rem;
+  }
+
+  @include lg {
+    gap: 3em;
+  }
+}

@@ -1,0 +1,104 @@
+@import "../../../../../themes/colors/colors.scss";
+@import "../../../../../themes/mixins/mixins.scss";
+
+.contact_btn {
+  display: flex;
+  padding: 2rem;
+  flex-direction: row;
+  border: 1px solid $gray-300;
+  align-items: center;
+  border-radius: 1.5rem;
+  cursor: pointer;
+
+  @include md {
+    padding: 1.59rem 1rem;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex: 1 0 0;
+    align-self: stretch;
+    border-radius: 1.33rem;
+  }
+
+  @include lg {
+    padding: 2rem;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex: 1 0 0;
+    align-self: stretch;
+    border-radius: 2.5rem;
+  }
+
+  &:hover {
+    background-color: $gray-100;
+    transition: 0.5s;
+
+    .contact_btn_text {
+      color: $black;
+
+      &::after {
+        width: 100%;
+      }
+    }
+
+    .contact_btn_copy_icon {
+      visibility: visible;
+    }
+  }
+}
+
+.contact_btn_text {
+  color: $black;
+  font-size: 1.13rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 125%;
+  letter-spacing: -0.64px;
+  position: relative;
+  margin-left: 1rem;
+
+  &::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+    height: 2px;
+    width: 0;
+    background-color: $black;
+    transition: 0.5s;
+  }
+
+  @include md {
+    font-size: 1.05rem;
+    margin-left: 0;
+  }
+
+  @include lg {
+    font-size: 1.75rem;
+  }
+}
+
+.popup_container {
+  position: relative;
+}
+
+.contact_btn_icon {
+  width: 2.5rem;
+  height: 2.5rem;
+
+  @include md {
+    width: 2.13rem;
+    height: 2.13rem;
+  }
+
+  @include lg {
+    width: 4rem;
+    height: 4rem;
+  }
+}
+
+.contact_btn_copy_icon {
+  visibility: hidden;
+  margin-left: 0.5rem;
+}
