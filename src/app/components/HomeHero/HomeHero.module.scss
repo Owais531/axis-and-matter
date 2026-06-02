@@ -1,0 +1,138 @@
+@import "../../../themes/colors/colors.scss";
+@import "../../../themes/mixins/mixins.scss";
+
+.hero_container {
+  position: relative;
+  width: 100%;
+  height: 75vh;
+  background-color: $white;
+  padding: 0rem;
+
+  // &::before {
+  //   content: "";
+  //   position: absolute;
+  //   top: 0;
+  //   left: 0;
+  //   width: 100%;
+  //   height: 100%;
+  //   background-color: $gray-25;
+  //   opacity: 0.2;
+  //   z-index: 0;
+
+  //   @include lg {
+  //     display: none;
+  //   }
+  // }
+
+  // > .top_div,
+  // > .grid {
+  //   position: relative;
+  //   z-index: 1;
+  // }
+
+  @include lg {
+    background-image: url("../../public/assets/images/axis-matter-hero-bg.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    padding: 0rem;
+  }
+
+  @include xxl {
+    padding: 6rem auto;
+  }
+}
+
+.top_div {
+  // background-color: $gray-25;
+  opacity: 0.8;
+  height: 15vh;
+  @include lg {
+    height: 20vh;
+  }
+}
+
+.hero_heading_wrapper {
+  padding-top: 1.75rem;
+  background: $white;
+
+  @include md {
+    padding: 0;
+    background: transparent;
+  }
+}
+
+.hero_subheading_wrapper {
+  background: $white;
+
+  @include md {
+    background: transparent;
+  }
+}
+
+.hero_heading {
+  // background-color: $gray-25;
+  padding: 0 1.25rem 2rem 1.25rem;
+  border-radius: 0 0 1rem 0;
+  line-height: 3rem;
+
+  @include lg {
+    padding: 3rem 2rem 3rem 5.1rem;
+    width: 65%;
+    line-height: 3.75rem;
+  }
+}
+
+.hero_subheading {
+  // background-color: $gray-25;
+  padding: 0rem 1.25rem 2rem 1.25rem;
+  border-radius: 0 0 1rem 0;
+
+  @include lg {
+    padding: 0rem 2rem 3rem 5.1rem;
+  }
+}
+
+.border_div_1 {
+  border-radius: 1rem 0 0 0;
+}
+
+.home_hero_bg_arrows {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+}
+
+.animation_triangle {
+  display: none;
+
+  @include md {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.filledBtn {
+  background-color: $primary;
+  border-radius: 31.25rem;
+  color: $white;
+  padding: 1.31rem;
+  letter-spacing: 1px;
+  margin-left: 1rem;
+
+  @include md {
+    padding: 0.93rem;
+  }
+
+  @include lg {
+    padding: 1.5rem;
+  }
+
+  &:hover {
+    background-color: $primary-hover;
+    transition: 0.5s;
+  }
+}

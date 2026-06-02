@@ -1,0 +1,23 @@
+@import "../../../../../themes/colors/colors.scss";
+@import "../../../../../themes/mixins/mixins.scss";
+
+.text_field {
+  display: flex;
+  width: 100%;
+  padding: 1.13rem;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  border-radius: 1rem;
+  background-color: transparent;
+  color: $white;
+  outline: none;
+
+  @include md {
+    padding: 0.81rem;
+  }
+
+  @include lg {
+    padding: 1.5rem;
+  }
+}
